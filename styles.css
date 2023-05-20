@@ -1,1 +1,11 @@
-/**/
+/* -----Start Mobile Version----- */
+
+/* -----End Mobile Version----- */
+
+/* -----Media Queries -----*/
+
+@media (min-width: 768px) {
+    .example {
+        display: none;
+    }
+}
