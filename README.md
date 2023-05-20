@@ -159,9 +159,9 @@ The link to the project deployed wil come soon!
 
 > This Project is still in development, some feature will completed soon:
 
-- [ ] **Animations Effects**
-- [ ] **About section**
-- [ ] **Desktop Version**
+-  **Animations Effects**
+-  **About section**
+-  **Desktop Version**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
