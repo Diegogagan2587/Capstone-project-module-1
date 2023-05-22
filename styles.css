@@ -25,6 +25,18 @@ ul {
     padding: 0;
 }
 
+h2 {
+    text-align: center;
+    font-size: 5.3VW;
+}
+
+hr {
+    width: 8vw;
+    border: 2px solid #a04038;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 /* -------------------------------------Start Mobile Version------------------------------------- */
 /*--Start Navigation Bar--*/
@@ -96,15 +108,7 @@ background-color: #fff;
 }
 
 .main-program h2 {
-    text-align: center;
-    font-size: 5.3VW;
-}
-
-.main-program hr {
-    width: 8%;
-    border: 2px solid #a04038;
-    margin-left: auto;
-    margin-right: auto;
+    color: blue;
 }
 
 .main-program ul {
@@ -153,11 +157,9 @@ background-color: #fff;
     margin-bottom: 8.13vw;
 }
 
-
-
-
-
 /* ---- End Main Program ----*/
+/* ---- Start Featured Speakers ----*/
+/* ---- End Featured Speakers ----*/
 /* -------------------------------------Ends Mobile Version------------------------------------- */
 
 /* -----Media Queries -----*/
