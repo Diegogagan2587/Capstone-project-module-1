@@ -54,8 +54,8 @@ background-color: #fff;
 .nav-bar ul {
     display: none;
 }
-/*--End Navigation Bar--*/
-/*--Start Header --*/
+/* ---- End Navigation Bar ---- */
+/* ---- Start Header ----*/
 .header-container {
     height: 129%;
     padding-left: 4.2%;
@@ -81,9 +81,11 @@ background-color: #fff;
 .header-container .foundation {
     font-size: 3.4vw;
 }
-/*--End Header --*/
-/*hedigt for header sould be like 129% calculated*/
 
+/* ---- End Header ----*/
+/* ---- Start Main Program ----*/
+
+/* ---- End Main Program ----*/
 /* -------------------------------------Ends Mobile Version------------------------------------- */
 
 /* -----Media Queries -----*/
