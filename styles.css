@@ -21,6 +21,10 @@ body{
     display: none;
 }
 
+ul {
+    padding: 0;
+}
+
 
 /* -------------------------------------Start Mobile Version------------------------------------- */
 /*--Start Navigation Bar--*/
@@ -84,6 +88,71 @@ background-color: #fff;
 
 /* ---- End Header ----*/
 /* ---- Start Main Program ----*/
+.main-program {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2.6%;
+    padding-right: 2.6%;
+}
+
+.main-program h2 {
+    text-align: center;
+    font-size: 5.3VW;
+}
+
+.main-program hr {
+    width: 8%;
+    border: 2px solid #a04038;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-program ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-program .activity {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 8.92px;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    align-items: center;
+
+}
+
+.activity img {
+    height: fit-content;
+    width: 16.07%;
+}
+
+.activity h3 {
+    color: #FF5438;
+    width: 29.92%; 
+    font-size: 3.8vw;
+    padding-left: 1%;
+}
+
+.activity .description {
+    border: 1px solid red;
+    width: 54.01%;
+    font-size: 2.8vw;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.main-program button {
+    width: 84.5%;
+    height: 18.13vw;
+    font-size: 4.26VW;
+}
+
+
+
+
 
 /* ---- End Main Program ----*/
 /* -------------------------------------Ends Mobile Version------------------------------------- */
