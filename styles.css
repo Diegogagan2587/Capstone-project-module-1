@@ -111,6 +111,7 @@ background-color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 10.66vw;
 }
 
 .main-program .activity {
@@ -148,6 +149,8 @@ background-color: #fff;
     width: 84.5%;
     height: 18.13vw;
     font-size: 4.26VW;
+    margin-top: 10.66vw;
+    margin-bottom: 8.13vw;
 }
 
 
