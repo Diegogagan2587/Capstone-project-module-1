@@ -1,15 +1,58 @@
-/*-------General Properties--------*/
+/*-------General Classes--------*/
 
 * {
   font-family: 'Lato', sans-serif;
   font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    border: 1px solid green;
+}
+
+.hide {
+    display: none;
 }
 
 
+/* -------------------------------------Start Mobile Version------------------------------------- */
+/*--Start Navigation Bar--*/
+.nav-bar {
+width: 100%;
+border: 1px solid green;
+padding: 3%;
+padding-left: 6.1%;
+padding-right: 32%;
+padding-top: 1.6%;
+padding-bottom: 1.6%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
 
-/* -----Start Mobile Version----- */
+.nav-bar a {
+    display: flex;
+    height:min-content;
+    align-items: center;
+}
 
-/* -----End Mobile Version----- */
+.nav-bar a .icon-hamburguer {
+    width: 9vw;
+}
+
+.nav-bar .summit-logo {
+    width: 34.6vw;
+}
+
+.nav-bar ul {
+    display: none;
+}
+/*--End Navigation Bar--*/
+
+/* -------------------------------------Ends Mobile Version------------------------------------- */
 
 /* -----Media Queries -----*/
 
@@ -17,4 +60,8 @@
     .example {
         display: none;
     }
+}
+
+* {
+     border: 1px solid green; 
 }
