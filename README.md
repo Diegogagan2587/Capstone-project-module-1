@@ -131,7 +131,8 @@ Example command:
 
 ### Deployment
 
-The link to the project deployed wil come soon!
+This proyect is deploy in the next link:
+https://diegogagan2587.github.io/Capstone-project-module-1/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
