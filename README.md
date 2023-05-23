@@ -151,6 +151,14 @@ The link to the project deployed wil come soon!
 
 - Behance: [Cindy Shin](https://www.behance.net/adagio07)
 
+code sharing Icon by I Putu Kharismayadi from <a href="https://thenounproject.com/browse/icons/term/code-sharing/" target="_blank" title="code sharing Icons">Noun Project</a>
+
+Foto de <a href="https://unsplash.com/@priscilladupreez?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Priscilla Du Preez</a> en <a href="https://unsplash.com/es/fotos/k3RZK--S-kk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+
+Foto de <a href="https://unsplash.com/@thatanimeweirdo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Laura Heimann</a> en <a href="https://unsplash.com/es/fotos/gyLrgS00gvw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
