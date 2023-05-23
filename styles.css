@@ -254,6 +254,7 @@ background-color: #fff;
 /* -----Media Queries -----*/
 
 @media (min-width: 768px) {
+    /* -- Start Desktop Navigation bar-- */
 
     .nav-bar {
         display: flex;
@@ -306,5 +307,34 @@ background-color: #fff;
     .nav-bar ul {
         display: flex;
     }
+
+    /* -- Ends Desktop Navigation bar-- */
+
+    /* Start Header content Desktop  */
+    .header-container {
+        padding-top: 6.37vw;
+        padding-left: 16.68vw;
+        padding-right: 32.21vw;
+        padding-bottom: 8.19vw;
+    }
+
+    .header-container h1 {
+        font-size: 4.80vw;
+        line-height: 3.75vw;
+    }
+
+    .header-container .event-description {
+        font-size: 1.77vw;
+    }
+
+    .header-container .dates {
+        font-size: 2.95vw;
+    }
+
+    .header-container .foundation {
+        font-size: 1.91vw;
+    }
+    /* Ends Header content Desktop  */
+
 }
 
