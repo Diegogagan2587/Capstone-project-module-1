@@ -1,5 +1,5 @@
 * {
-    /* border: 1px solid green;  */
+    border: 1px solid green; 
 }
 
 /*-------General Classes--------*/
@@ -23,6 +23,7 @@ body{
 
 ul {
     padding: 0;
+    list-style: none;
 }
 
 h2 {
@@ -41,16 +42,23 @@ hr {
 /* -------------------------------------Start Mobile Version------------------------------------- */
 /*--Start Navigation Bar--*/
 .nav-bar {
-width: 100%;
-padding: 3%;
-padding-left: 6.1%;
-padding-right: 32%;
-padding-top: 1.6%;
-padding-bottom: 1.6%;
+
 display: flex;
 align-items: center;
 justify-content: space-between;
 background-color: #fff;
+}
+
+.nav-bar .main-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 3%;
+    padding-left: 6.1%;
+    padding-right: 32%;
+    padding-top: 1.6%;
+    padding-bottom: 1.6%;
 }
 
 .nav-bar a {
@@ -246,8 +254,57 @@ background-color: #fff;
 /* -----Media Queries -----*/
 
 @media (min-width: 768px) {
-    .example {
+
+    .nav-bar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-bar .top-bar {
+        display: flex;
+        border: 1px solid green;
+        width: 100%;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 1.3vw;
+        padding-right: 13.19vw;
+        font-size: 0.8vw;
+        background-color: #3E3E3E;
+    }
+
+    .top-bar img {
+        height: 1.25vmax;
+        width: fit-content;
+    }
+
+    .top-bar a {
+        color: #fff;
+    }
+
+    .nav-bar .main-bar {
+        width: 100%;
+        padding-left: 14.23vw;
+        padding-right: 14.23vw;
+    }
+
+    .main-bar .summit-logo {
+        width: 9.02vw;
+    }
+
+    .main-bar ul {
+        gap: 2%;
+        font-size: 0.97vw;
+        width: 47.15vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #hamburger-button {
         display: none;
+    }
+
+    .nav-bar ul {
+        display: flex;
     }
 }
 
