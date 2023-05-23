@@ -33,3 +33,26 @@
 }
 
 /* -- Ends header section--  */
+
+/* -- Start section logo info --  */
+
+.section-logo-info {
+    padding-left: 2.8%;
+    padding-right: 2.8%;
+    text-align: center;
+}
+
+.section-logo-info h2 {
+    border: 1px solid green;
+    width: 65.5vw;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 5vw;
+    padding: 0;
+}
+
+.section-logo-info .logo-history {
+    color: #838383;
+}
+
+/* -- Start section logo info --  */
