@@ -184,6 +184,8 @@ background-color: #fff;
     font-size: 4.26VW;
     margin-top: 10.66vw;
     margin-bottom: 8.13vw;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #FF4F38;
     border: 0;
     color: #fff;
@@ -254,6 +256,10 @@ background-color: #fff;
 /* -----Media Queries -----*/
 
 @media (min-width: 768px) {
+    /* Desktop General elemnts */
+    hr {
+        width: 3.54vw;
+    }
     /* -- Start Desktop Navigation bar-- */
 
     .nav-bar {
@@ -335,6 +341,48 @@ background-color: #fff;
         font-size: 1.91vw;
     }
     /* Ends Header content Desktop  */
+    /* Start section main program Desktop */
+    .main-program {
+        padding-left: 14.86vw;
+        padding-right: 14.86vw;
+        padding-bottom: 5.20vw;
+    }
+    .main-program h2 {
+        font-size: 2.08vw;
+    }
+
+    .main-program ul {
+        flex-direction: row;
+        gap: 1%;
+    }
+
+    .main-program .activity {
+        flex-direction: column;
+        padding-left: 1.25vw;
+        padding-right: 1.25vw;
+        height: 16.04vw;
+    }
+
+    .activity img {
+        width: 4.44vw;
+    }
+
+    .activity h3 {
+        font-size: 1.66vw;
+        width: 100%;
+    }
+
+    .activity .description {
+        font-size: 0.83vw;
+        width: 100%;
+    }
+
+    .main-program button {
+        display: none;
+    }
+
+    /* Ends section main program Desktop */
+
 
 }
 
