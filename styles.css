@@ -17,10 +17,6 @@ body{
     border: 1px solid green;
 }
 
-.hide {
-    display: none;
-}
-
 ul {
     padding: 0;
     list-style: none;
@@ -251,6 +247,14 @@ background-color: #fff;
 
 /* ---- End Featured Speakers ----*/
 
+.partners {
+    display: none;
+}
+
+.hide-or-show {
+    display: none;
+}
+
 /* -------------------------------------Ends Mobile Version------------------------------------- */
 
 /* -----Media Queries -----*/
@@ -259,6 +263,10 @@ background-color: #fff;
     /* Desktop General elemnts */
     hr {
         width: 3.54vw;
+    }
+
+    .hide-or-show {
+        display: inherit;
     }
     /* -- Start Desktop Navigation bar-- */
 
@@ -345,7 +353,7 @@ background-color: #fff;
     .main-program {
         padding-left: 14.86vw;
         padding-right: 14.86vw;
-        padding-bottom: 5.20vw;
+        padding-bottom: 10.40vw;
     }
     .main-program h2 {
         font-size: 2.08vw;
@@ -382,6 +390,73 @@ background-color: #fff;
     }
 
     /* Ends section main program Desktop */
+
+    /* start section featured speakers desktop */
+    .featured-speakers {
+        padding-top: 1%;
+        padding-left: 14.16vw;
+        padding-right: 14.16vw;
+    }
+    .featured-speakers h2 {
+        font-size: 2.08vw;
+    }
+
+    .featured-speakers ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .speaker {
+        width: 50%;
+    }
+
+    .speaker img {
+        height: 12.29vw;
+        width: fit-content;
+    }
+
+    .speaker h3 {
+        font-size: 1.66vw;
+    }
+
+    .speaker .ocupation {
+        font-size: 1.04vw;
+    }
+
+    .speaker .more-info {
+        font-size: 0.97vw;
+    }
+
+    .featured-speakers button {
+        display: none;
+    }
+    /* start section featured speakers desktop */
+
+    /* Start Partner section */
+
+    .partners {
+        display: inherit;
+        background-color: #414246;
+        color: #fff;
+        padding-top: 5.3vw;
+        padding-bottom: 9.3vw;
+    }
+
+    .partners h2 {
+        font-size: 2.08vw;
+        color: #8F8F91;
+    }
+
+    .partners ul {
+        display: flex;
+        gap: 8%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /* Ends Partner Section */
 
 
 }
