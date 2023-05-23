@@ -1,6 +1,4 @@
-* {
-    border: 1px solid green; 
-}
+
 
 /*-------General Classes--------*/
 
@@ -251,6 +249,10 @@ background-color: #fff;
     display: none;
 }
 
+.footer {
+    display: none;
+}
+
 .hide-or-show {
     display: none;
 }
@@ -457,6 +459,39 @@ background-color: #fff;
     }
 
     /* Ends Partner Section */
+    /* -- Start Footer Section -- */
+
+    footer {
+        display: flex;
+    }
+
+    .footer-logo {
+        display: flex;
+        align-items: center;
+        width: 50%;
+        padding-left: 5%;
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+    }
+
+    .footer-logo img {
+        width: 5vw;
+        height: fit-content;
+    }
+
+    .footer-logo p {
+        font-size: 1.11vw;
+    }
+
+    footer .rights {
+        width: 50%;
+        padding-right: 5%;
+        font-size: 1vw;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+/* -- Ends Footer Section -- */
 
 
 }
