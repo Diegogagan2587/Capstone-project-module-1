@@ -1,5 +1,5 @@
 * {
-    border: 1px solid green; 
+    /* border: 1px solid green;  */
 }
 
 /*-------General Classes--------*/
@@ -71,7 +71,7 @@ background-color: #fff;
     display: none;
 }
 /* ---- End Navigation Bar ---- */
-/* ---- Start Header ----*/
+/* ---- Start Header Content----*/
 .header-container {
     height: 129%;
     padding-left: 4.2%;
@@ -82,40 +82,58 @@ background-color: #fff;
     background-size: cover;
 }
 
+.header-container span {
+    color: #FF4F38;
+}
+
+.header-container h1 {
+    line-height: 9vw;
+    color: rgba(248, 53, 53, 0.5); 
+    background-image: url('./img/h1-backgroundv2.jpg');
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
 .header-container .event-description {
     font-size: 3.2vw;
-    border: 2px solid red;
     background-color: #fff;
     margin-top: 5.3%;
     margin-bottom: 12.5%;
+    color: #515151;
+
 }
 
 .header-container .dates {
     font-size: 5.3vw;
+    color: #595959;
 }
 
 .header-container .foundation {
     font-size: 3.4vw;
+    color: #515151;
 }
 
-/* ---- End Header ----*/
+/* ---- End Header Content----*/
 /* ---- Start Main Program ----*/
 .main-program {
     display: flex;
     flex-direction: column;
+    padding-top: 8%;
     padding-left: 2.6%;
     padding-right: 2.6%;
+    background-color: rgb(39, 42, 50);
+    background-image: url(./img/background-main-program.png);
 }
 
 .main-program h2 {
-    color: black;
+    color: #fff;
 }
 
 .main-program ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 10.66vw;
+    margin-top: 9.66vw;
 }
 
 .main-program .activity {
@@ -126,6 +144,9 @@ background-color: #fff;
     padding-left: 2.5%;
     padding-right: 2.5%;
     align-items: center;
+    background-color: rgba(253, 253, 253, 0.2);
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
 
 }
 
@@ -138,15 +159,15 @@ background-color: #fff;
     color: #FF5438;
     width: 29.92%; 
     font-size: 3.8vw;
-    padding-left: 1%;
+    padding-left: 4%;
 }
 
 .activity .description {
-    border: 1px solid red;
     width: 54.01%;
     font-size: 2.8vw;
     padding-top: 2%;
     padding-bottom: 2%;
+    color: #fff;
 }
 
 .main-program button {
@@ -155,6 +176,9 @@ background-color: #fff;
     font-size: 4.26VW;
     margin-top: 10.66vw;
     margin-bottom: 8.13vw;
+    background-color: #FF4F38;
+    border: 0;
+    color: #fff;
 }
 
 /* ---- End Main Program ----*/
