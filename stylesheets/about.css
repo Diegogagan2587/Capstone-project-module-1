@@ -1,0 +1,35 @@
+/* -- Start header section--  */
+.header-container {
+    background: url(../img/mobile-about-background.png);
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-container span {
+}
+
+.header-container h1 {
+    text-align: center;
+}
+
+.header-container .event-description {
+    color: black;
+    padding-top: 8%;
+    line-height: 6.66vw;
+    text-align: center;
+}
+
+.header-container .foundation {
+    text-align: center;
+}
+
+.header-container .email {
+    color: #515151;
+    margin-top: 2%;
+    font-size: 3.2vw;
+    font-weight: bold;
+}
+
+/* -- Ends header section--  */
