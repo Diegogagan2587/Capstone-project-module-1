@@ -200,6 +200,10 @@ background-color: #fff;
     height: fit-content;
 }
 
+.speaker .ocupation {
+    color: #F78C89;
+}
+
 .speaker .information {
     display: flex;
     flex-direction: column;
