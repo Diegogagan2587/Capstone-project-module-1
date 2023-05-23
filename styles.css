@@ -159,6 +159,58 @@ background-color: #fff;
 
 /* ---- End Main Program ----*/
 /* ---- Start Featured Speakers ----*/
+.featured-speakers {
+    padding-top: 4.33%;
+    padding-left: 3.34%;
+    padding-right: 3.34%;
+    padding-bottom: 7.3%;
+}
+
+.speaker {
+    display: flex;
+    flex-direction: row;
+}
+
+.speaker img {
+    width: 30.55%;
+    height: fit-content;
+}
+
+.speaker .information {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3%;
+}
+
+.information h3 {
+    font-size: 4vw;
+}
+
+.information .ocupation {
+    font-size: 2.66vw;
+    padding-top: 2%;
+    padding-bottom: 4%;
+}
+
+.information .more-info {
+    font-size: 2.4vw;
+}
+
+.featured-speakers button {
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    width: 94.9%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 8%;
+}
+.featured-speakers button span,
+.featured-speakers button img {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+
 /* ---- End Featured Speakers ----*/
 /* -------------------------------------Ends Mobile Version------------------------------------- */
 
