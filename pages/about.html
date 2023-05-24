@@ -13,18 +13,20 @@
     <link rel="stylesheet" href="../styles.css">
     <link rel="stylesheet" href="../stylesheets/about.css">
     <script src="../main.js" defer></script>
+    <script src="../js/navigation.js" defer></script>
     <title>about Page Dev Summit</title>
 </head>
 
 <body>
     <header>
         <nav class="nav-bar">
-            <ul class="top-bar">
+            <ul id="nav-bar-1" class="top-bar">
                 <li><a href="#"><img src="../img/icons/face-icon.png" alt=""></a></li>
                 <li><a href="#"><img src="../img/icons/twitter-icon.png" alt=""></a></li>
                 <li><a href="#">English</a></li>
                 <li><a href="#">My Page</a></li>
                 <li><a href="#">Logout</a></li>
+                <li id="li-exit" class="hidden" > <a href="#" id="exitMobile">Exit</a> </li>
             </ul>
             <div class="main-bar">
                 <a href="#" id="hamburger-button">
@@ -33,7 +35,7 @@
                 <a class="wrapper-summit-logo" href="../index.html" >
                     <img class="summit-logo" src="../img/icons/logo.png" alt="summit logo">
                 </a>
-                <ul>
+                <ul id="nav-bar-2" class="">
                     <li><a href="#">About</a></li>
                     <li><a href="#">Program</a></li>
                     <li><a href="#">Join</a></li>
