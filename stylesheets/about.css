@@ -272,6 +272,65 @@ footer .rights {
         font-size: 1.25vw;
     }
     /* Ends section logo information */
+    /* start past summits */
+    .previous-summit-section {
+        padding-left: 19.23vw;
+        padding-right: 19.23vw;
+    }
+
+    .previous-summit-section h2 {
+        font-size: 2.08vw;
+        padding-top: 0;
+    }
+
+    .previous-summit-section .summits-introduction {
+        font-size: 1.11vw;
+    }
+
+    .previous-summit-section .summit-container {
+        flex-direction: row;
+        gap: 2%;
+    }
+
+    .previous-summit {
+        height: 16.38vw;
+    }
+    /* ends past summits */
+    /* start partners section */
+    .partners {
+        display: none;
+    }
+    /* end partners section */
+    /* footer */
+    footer {
+        height: 17.01vw;
+        background-color: #2E2E2E;
+        color: #fff;
+    }
+
+    .footer-logo {
+        padding-left: 20%;
+    }
+
+    .footer-logo img {
+        background-color: #fff;
+        padding: 1%;
+        padding-top: 3%;
+        border-radius: 5px;
+        width: 5vw;
+    }
+
+    .footer-logo .organization {
+        padding-left: 2%;
+    }
+
+    .footer-logo .organization p {
+        font-size: 2vw;
+    }
+
+    footer .rights {
+        font-size: 1.75vw;
+    }
 }
 
 
