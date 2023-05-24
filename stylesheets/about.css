@@ -3,6 +3,10 @@ ul {
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* -- Start header section--  */
 .header-container {
     background: url(../img/mobile-about-background.png);
@@ -207,6 +211,31 @@ footer .rights {
 }
 
 /* -- Ends Footer Section -- */
+
+/* -------------------------------------Ends Mobile Version------------------------------------- */
+@media (min-width: 768px) {
+    .header-container {
+        background: url(../img/desktop/desktop-about-header-bakcground.png);
+        background-size: cover;
+        padding-left: 17.95vw;
+        padding-right: 17.95vw;
+        padding-top: 8.01vw;
+    }
+
+    .header-container .event-description {
+        font-size: 0.97vw;
+        line-height: 1.75vw;
+    }
+
+    .header-container .foundation {
+        font-size: 1.11vw;
+    }
+
+    .header-container .email {
+        font-size: 1.18vw;
+    }
+}
+
 
 
 
