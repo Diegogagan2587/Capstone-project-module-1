@@ -130,6 +130,7 @@ a {
     display: flex;
     flex-direction: column;
     gap: 6.66vw;
+    justify-content: center
 }
 
 .previous-summit {
