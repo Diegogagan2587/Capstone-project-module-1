@@ -304,6 +304,10 @@ footer {
         padding-right: 14.23vw;
     }
 
+    .main-bar a {
+        color: #868686;
+    }
+
     .main-bar .summit-logo {
         width: 9.02vw;
     }
