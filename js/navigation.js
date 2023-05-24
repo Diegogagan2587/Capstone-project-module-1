@@ -21,5 +21,12 @@ function closeMobileMenu() {
 
 const hamburgerButton = document.querySelector('#hamburger-button');
 const closeMobileButton = document.querySelector('#exitMobile');
+const navListAnchors = document.getElementById('nav-bar').querySelectorAll('li');
 hamburgerButton.addEventListener('click', displayMobileMenu )
 closeMobileButton.addEventListener('click', closeMobileMenu)
+
+console.log(navListAnchors)
+
+for (let i = 0; i < navListAnchors.length; i += 1) {
+    navListAnchors[i].addEventListener('click', closeMobileMenu);
+  }
