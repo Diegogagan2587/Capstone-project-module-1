@@ -40,7 +40,8 @@ a {
 /* -------------------------------------Start Mobile Version------------------------------------- */
 /*--Start Navigation Bar--*/
 .nav-bar {
-
+position: fixed;
+width: 100vw;
 display: flex;
 align-items: center;
 justify-content: space-between;
@@ -136,7 +137,7 @@ background-color: #fff;
     height: 129%;
     padding-left: 4.2%;
     padding-right: 3.2%;
-    padding-top: 26%;
+    padding-top: 50%;
     padding-bottom: 18.5%;
     background: url(./img/mobile-header-background_intro_bg.png);
     background-size: cover;
@@ -394,7 +395,7 @@ footer {
 
     /* Start Header content Desktop  */
     .header-container {
-        padding-top: 6.37vw;
+        padding-top: 12.81vw;
         padding-left: 16.68vw;
         padding-right: 32.21vw;
         padding-bottom: 8.19vw;
