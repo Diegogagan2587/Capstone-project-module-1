@@ -1,5 +1,5 @@
 
-/* -- Start Featured Section -- */
+/* -------- Start Featured Speakers Section -------- */
 function speakerData (
     img,
     name,
@@ -29,6 +29,7 @@ function appendSpeakers(arrOfdata,container){
     console.log('running appendSpeakers')
     for(let i = 0; i < arrOfdata.length; i += 1 ) {
         const tempSpeaker = createNewSpeakerFrom(arrOfdata[i]);
+        if(i > 1 ) { tempSpeaker.classList.add('hide-or-show')};
         container.appendChild(tempSpeaker);
     }
 }
@@ -76,4 +77,6 @@ const featuredSpeakers = [
     const speakerTemplate = document.getElementById('speaker-template');
     const speakersContainer = document.querySelector('.speakers-ul');
     appendSpeakers(featuredSpeakers, speakersContainer);
+
+    /* -------- Ends Featured Speakers Section -------- */
 
