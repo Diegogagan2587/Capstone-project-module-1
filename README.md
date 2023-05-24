@@ -158,6 +158,12 @@ Foto de <a href="https://unsplash.com/@priscilladupreez?utm_source=unsplash&utm_
   
 
 Foto de <a href="https://unsplash.com/@thatanimeweirdo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Laura Heimann</a> en <a href="https://unsplash.com/es/fotos/gyLrgS00gvw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+Richard Stallman. (2023, May 20). In Wikipedia. https://en.wikipedia.org/wiki/Richard_Stallman
+Richar's picture from : Ruben Rodriguez - https://media.libreplanet.org/u/libreplanet/m/richard-stallman-at-libreplanet-2019-2113/
+
+
+File:James Gosling 2008.jpg. In Wikipedia. https://commons.wikimedia.org/wiki/File:James_Gosling_2008.jpg
   
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
