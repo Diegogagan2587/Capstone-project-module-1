@@ -257,6 +257,10 @@ footer {
     display: none;
 }
 
+.hidden {
+    display: none;
+}
+
 /* -------------------------------------Ends Mobile Version------------------------------------- */
 
 /* -----Media Queries -----*/
@@ -412,10 +416,14 @@ footer {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        gap: 2%;
+        margin-top: 2%;
     }
 
     .speaker {
-        width: 50%;
+        width: 48%;
+        margin-top: 1%;
+        margin-bottom: 1%;
     }
 
     .speaker img {
