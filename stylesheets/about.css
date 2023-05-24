@@ -214,6 +214,7 @@ footer .rights {
 
 /* -------------------------------------Ends Mobile Version------------------------------------- */
 @media (min-width: 768px) {
+    /* Header section */
     .header-container {
         background: url(../img/desktop/desktop-about-header-bakcground.png);
         background-size: cover;
@@ -234,6 +235,43 @@ footer .rights {
     .header-container .email {
         font-size: 1.18vw;
     }
+    /* ends header section */
+    /* start section logo information */
+    .section-logo-info {
+        padding-left: 23.68vw;
+        padding-right: 23.68vw;
+        padding-top: 4.51vw;
+        padding-bottom: 4.51vw;
+    }
+
+    .section-logo-info h2 {
+        font-size: 2.08vw;
+        width: 100%;
+    }
+
+    .section-logo-info .logo-history {
+        font-size: 1.11vw;
+        line-height: 2vw;
+    }
+
+    .section-logo-info .logo-summit {
+        margin-left: auto;
+        margin-right: auto;
+        width: 37.63vw;
+    }
+
+    .logo-summit .text-container h3 {
+        font-size: 2.75vw;
+    }
+
+    .logo-summit .text-container span {
+        font-size: 2vw;
+    }
+
+    .logo-summit .text-container .date {
+        font-size: 1.25vw;
+    }
+    /* Ends section logo information */
 }
 
 
