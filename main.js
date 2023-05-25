@@ -1,3 +1,18 @@
+const speakerTemplate = document.createElement('li');
+speakerTemplate.classList.add('speaker')
+
+ speakerTemplate.innerHTML = `
+                 <img class="profile-picture" src="./img/featured-speakers/speaker_01.png" alt="speaker picture">
+                 <div class="information">
+                     <h3 >Yochai Benkler</h3>
+                     <p class="ocupation">
+                         Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</p>
+                     <p class="more-info">
+                         Benkler studies commons-based peer production, and published his seminal book, The Wealth of
+                         Networks in 2006
+                     </p>
+              </div>
+ `;
 /* -------- Start Featured Speakers Section -------- */
 function SpeakerData(
   img,
@@ -14,7 +29,6 @@ function SpeakerData(
 }
 
 function createNewSpeakerFrom(obj) {
-  const speakerTemplate = document.getElementById('speaker-template');
   const newSpeaker = speakerTemplate.cloneNode(true);
   newSpeaker.classList.remove('hidden');
 
