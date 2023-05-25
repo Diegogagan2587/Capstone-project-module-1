@@ -231,6 +231,10 @@ a {
   color: #fff;
 }
 
+#see-whole {
+  display: none;
+}
+
 .main-program button {
   width: 84.5%;
   height: 18.13vw;
@@ -461,7 +465,7 @@ a {
   .main-program {
     padding-left: 14.86vw;
     padding-right: 14.86vw;
-    padding-bottom: 10.4vw;
+    padding-bottom: 5.20vw;
   }
 
   .main-program h2 {
@@ -492,6 +496,16 @@ a {
   .activity .description {
     font-size: 0.83vw;
     width: 100%;
+  }
+
+  #see-whole {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #d3d3d3;
+    text-decoration: underline;
+    margin-top: 4.86vw;
+    /* text-align: center; */
   }
 
   .main-program button {
