@@ -34,6 +34,8 @@ function appendSpeakers(arrOfdata, container) {
 
 function showMoreSpeakers() {
   const containner = document.querySelectorAll('.speaker')
+  moreButton.classList.toggle('hidden');
+  lessButton.classList.toggle('hidden')
   console.log(containner)
   for(let i = 0; i < containner.length; i += 1) {
     containner[i].classList.toggle('hide-or-show');
@@ -85,4 +87,6 @@ appendSpeakers(featuredSpeakers, speakersContainer);
 
 //show more button
 const moreButton = document.querySelector('#showButton')
+const lessButton = document.querySelector('#lessButton')
 moreButton.addEventListener('click', showMoreSpeakers);
+lessButton.addEventListener('click', showMoreSpeakers);
