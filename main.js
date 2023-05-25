@@ -32,6 +32,14 @@ function appendSpeakers(arrOfdata, container) {
   }
 }
 
+function showMoreSpeakers() {
+  const containner = document.querySelectorAll('.speaker')
+  console.log(containner)
+  for(let i = 0; i < containner.length; i += 1) {
+    containner[i].classList.toggle('hide-or-show');
+  }
+}
+
 const featuredSpeakers = [
   new SpeakerData(
     './img/featured-speakers/speaker_01.jpg',
@@ -74,4 +82,7 @@ const featuredSpeakers = [
 // get the template for each speaker
 const speakersContainer = document.querySelector('.speakers-ul');
 appendSpeakers(featuredSpeakers, speakersContainer);
-// mobile drop menu;
+
+//show more button
+const moreButton = document.querySelector('#showButton')
+moreButton.addEventListener('click', showMoreSpeakers);
