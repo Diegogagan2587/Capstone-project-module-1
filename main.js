@@ -7,7 +7,7 @@ function SpeakerData(
   moreInfo,
 ) {
   this.img = img;
-  this.altAttribute=altAttribute;
+  this.altAttribute = altAttribute;
   this.name = name;
   this.ocupation = ocupation;
   this.moreInfo = moreInfo;
@@ -20,7 +20,7 @@ function createNewSpeakerFrom(obj) {
 
   // now we modfy the content for the new speaker;
   newSpeaker.querySelector('img').src = `${obj.img}`;
-  newSpeaker.querySelector('img').alt = `${ob.altAttribute}`
+  newSpeaker.querySelector('img').alt = `${obj.altAttribute}`;
   newSpeaker.querySelector('h3').innerText = `${obj.name}`;
   newSpeaker.querySelector('.ocupation').innerText = `${obj.ocupation}`;
   newSpeaker.querySelector('.more-info').innerText = `${obj.moreInfo}`;
