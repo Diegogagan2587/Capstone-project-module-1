@@ -481,7 +481,7 @@ a {
     padding-left: 1.25vw;
     padding-right: 1.25vw;
     padding-bottom: 1.52vw;
-    padding-top: 0.41vw;
+    padding-top: 1.25vw;
     height: 16.04vw;
   }
 
@@ -493,6 +493,7 @@ a {
     font-size: 1.66vw;
     width: 100%;
     text-align: center;
+    padding: 0;
   }
 
   .activity .description {
