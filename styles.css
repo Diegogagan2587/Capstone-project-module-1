@@ -16,9 +16,14 @@ ul {
   list-style: none;
 }
 
+h1 {
+  font-weight:bold;
+}
+
 h2 {
   text-align: center;
   font-size: 5.3vw;
+  font-weight: 400;
 }
 
 hr {
