@@ -585,7 +585,7 @@ a {
   .footer-logo {
     display: flex;
     align-items: center;
-    width: 50%;
+    width: 17.36vw;
     margin-top: auto;
     margin-bottom: auto;
     height: 2.93vw;
@@ -607,8 +607,8 @@ a {
   }
 
   footer .rights {
-    width: 50%;
-    padding-right: 5%;
+    width: 47.43vw;
+    padding-left: 5%;
     font-size: 0.75vw;
     font-weight: bold;
     margin-top: auto;

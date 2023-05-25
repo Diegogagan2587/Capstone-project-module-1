@@ -313,6 +313,7 @@ footer .rights {
 
   .footer-logo {
     padding-left: 0;
+    width: 17.36vw;
   }
 
   .footer-logo img {
@@ -334,6 +335,8 @@ footer .rights {
   }
 
   footer .rights {
+    width: 47.43vw;
+    padding-left: 5%;
     font-size: 0.75vw;
     font-weight: bold;
   }
