@@ -308,7 +308,6 @@ a {
 
   footer {
   display: flex;
-  border: 1px solid red;
   background-color: #272a31;
   width: 100%;
   height: 22.92vw;
@@ -316,7 +315,6 @@ a {
   }
 
   .footer-logo {
-    border: 1px solid green;
     display: flex;
     align-items: center;
     width: 50%;
@@ -592,8 +590,6 @@ a {
     padding-left: 0;
     padding-top: 1vw;
     padding-bottom: 1vw;
-    border: 1px solid green;
-    
   }
 
   .footer-logo .logo-img {
@@ -613,7 +609,6 @@ a {
     font-weight: bold;
     margin-top: auto;
     margin-bottom: auto;
-    border: 1px solid green;
   }
 
   /* -- Ends Footer Section -- */
