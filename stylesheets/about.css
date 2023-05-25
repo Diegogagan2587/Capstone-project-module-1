@@ -176,6 +176,8 @@ a {
 
 footer {
   display: flex;
+  background-color: white;
+  color: #272a31;
 }
 
 .footer-logo {

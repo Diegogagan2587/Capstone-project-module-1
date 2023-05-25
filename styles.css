@@ -309,8 +309,10 @@ a {
   footer {
   display: flex;
   border: 1px solid red;
+  background-color: #272a31;
   width: 100%;
   height: 22.92vw;
+  color: white;
   }
 
   .footer-logo {
@@ -325,6 +327,9 @@ a {
 
   .footer-logo .logo-img {
     width: 10.33vw;
+    background-color: white;
+    border-radius: 5px;
+    margin-right: 5%;
   }
 
   .footer-logo p {
@@ -570,6 +575,8 @@ a {
 
   footer {
     display: flex;
+    background-color: #fff;
+    color: #272a31;
   }
 
   .footer-logo {
