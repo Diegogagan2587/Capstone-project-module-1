@@ -415,6 +415,21 @@ footer .rights {
     width: 9.02vw;
   }
 
+ #nav-bar-2 a {
+  border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, 0);
+    width: 150%;
+    height: 180%;
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+
+  #nav-bar-2 a:hover {
+    
+    border: 1px solid #ec5242;
+    color: #ec5242;
+  }
+
   .main-bar ul {
     gap: 2%;
     font-size: 0.97vw;
