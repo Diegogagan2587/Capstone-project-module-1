@@ -17,7 +17,7 @@ ul {
 }
 
 h1 {
-  font-weight: bold;
+  font-weight:bold;
 }
 
 h2 {
@@ -311,45 +311,45 @@ a {
   display: none;
 }
 
-/* -- Start Footer Section -- */
+  /* -- Start Footer Section -- */
 
-footer {
+  footer {
   display: flex;
   background-color: #272a31;
   width: 100%;
   height: 22.92vw;
   color: white;
-}
+  }
 
-.footer-logo {
-  display: flex;
-  align-items: center;
-  width: 50%;
-  padding-left: 5%;
-  padding-top: 1vw;
-  padding-bottom: 1vw;
-}
+  .footer-logo {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding-left: 5%;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+  }
 
-.footer-logo .logo-img {
-  width: 10.33vw;
-  background-color: white;
-  border-radius: 5px;
-  margin-right: 5%;
-}
+  .footer-logo .logo-img {
+    width: 10.33vw;
+    background-color: white;
+    border-radius: 5px;
+    margin-right: 5%;
+  }
 
-.footer-logo p {
-  font-size: 3vw;
-}
+  .footer-logo p {
+    font-size: 3vw;
+  }
 
-footer .rights {
-  width: 50%;
-  padding-right: 5%;
-  font-size: 2.66vw;
-  margin-top: auto;
-  margin-bottom: auto;
-}
+  footer .rights {
+    width: 50%;
+    padding-right: 5%;
+    font-size: 2.66vw;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
 
-/* -- Ends Footer Section -- */
+  /* -- Ends Footer Section -- */
 
 .hide-or-show {
   display: none;
@@ -464,7 +464,7 @@ footer .rights {
   .main-program {
     padding-left: 14.86vw;
     padding-right: 14.86vw;
-    padding-bottom: 5.2vw;
+    padding-bottom: 5.20vw;
   }
 
   .main-program h2 {
@@ -510,7 +510,6 @@ footer .rights {
     text-decoration: underline;
     margin-top: 4.86vw;
     font-size: 1.38vw;
-
     /* text-align: center; */
   }
 

@@ -156,6 +156,8 @@ a {
 /* -- Start Parnert Section -- */
 
 .partners {
+  display: flex;
+  flex-direction: column;
   background-color: #414246;
   color: #fff;
   padding-top: 5.3vw;
