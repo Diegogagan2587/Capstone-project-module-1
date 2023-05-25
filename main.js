@@ -1,7 +1,7 @@
 const speakerTemplate = document.createElement('li');
-speakerTemplate.classList.add('speaker')
+speakerTemplate.classList.add('speaker');
 
- speakerTemplate.innerHTML = `
+speakerTemplate.innerHTML = `
                  <img class="profile-picture" src="./img/featured-speakers/speaker_01.png" alt="speaker picture">
                  <div class="information">
                      <h3 >Yochai Benkler</h3>
