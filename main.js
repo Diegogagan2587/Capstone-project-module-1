@@ -32,16 +32,6 @@ function appendSpeakers(arrOfdata, container) {
   }
 }
 
-function showMoreSpeakers() {
-  const containner = document.querySelectorAll('.speaker')
-  moreButton.classList.toggle('hidden');
-  lessButton.classList.toggle('hidden')
-  console.log(containner)
-  for(let i = 0; i < containner.length; i += 1) {
-    containner[i].classList.toggle('hide-or-show');
-  }
-}
-
 const featuredSpeakers = [
   new SpeakerData(
     './img/featured-speakers/speaker_01.jpg',
@@ -85,8 +75,18 @@ const featuredSpeakers = [
 const speakersContainer = document.querySelector('.speakers-ul');
 appendSpeakers(featuredSpeakers, speakersContainer);
 
-//show more button
-const moreButton = document.querySelector('#showButton')
-const lessButton = document.querySelector('#lessButton')
+// show more button
+const moreButton = document.querySelector('#showButton');
+const lessButton = document.querySelector('#lessButton');
+
+function showMoreSpeakers() {
+  const containner = document.querySelectorAll('.speaker');
+  moreButton.classList.toggle('hidden');
+  lessButton.classList.toggle('hidden');
+  for (let i = 0; i < containner.length; i += 1) {
+    containner[i].classList.toggle('hide-or-show');
+  }
+}
+
 moreButton.addEventListener('click', showMoreSpeakers);
 lessButton.addEventListener('click', showMoreSpeakers);
