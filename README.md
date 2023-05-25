@@ -73,9 +73,9 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> The link to the project will be coming soon, we are still working on it, check out our progres in the next repositori.
+> Do you want to run the website? Take a look into the next link
 
-- [Project Repositorie ](https://github.com/Diegogagan2587/Capstone-project-module-1)
+- [Live Demo ](https://diegogagan2587.github.io/Capstone-project-module-1/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
