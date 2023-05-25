@@ -586,25 +586,34 @@ a {
     display: flex;
     align-items: center;
     width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 2.93vw;
     padding-left: 0;
     padding-top: 1vw;
     padding-bottom: 1vw;
+    border: 1px solid green;
+    
   }
 
   .footer-logo .logo-img {
-    width: 5vw;
+    height: 2.93vw;
+    width: fit-content;
   }
 
   .footer-logo p {
-    font-size: 2vw;
+    font-weight: bold;
+    font-size: 1.25vw;
   }
 
   footer .rights {
     width: 50%;
     padding-right: 5%;
-    font-size: 1.75vw;
+    font-size: 0.75vw;
+    font-weight: bold;
     margin-top: auto;
     margin-bottom: auto;
+    border: 1px solid green;
   }
 
   /* -- Ends Footer Section -- */

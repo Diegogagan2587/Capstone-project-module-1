@@ -320,7 +320,8 @@ footer .rights {
     padding: 1%;
     padding-top: 3%;
     border-radius: 5px;
-    width: 5vw;
+    height: 2.93vw;
+    width: fit-content;
   }
 
   .footer-logo .organization {
@@ -328,10 +329,12 @@ footer .rights {
   }
 
   .footer-logo .organization p {
-    font-size: 2vw;
+    font-weight: bold;
+    font-size: 1.25vw;
   }
 
   footer .rights {
-    font-size: 1.75vw;
+    font-size: 0.75vw;
+    font-weight: bold;
   }
 }
