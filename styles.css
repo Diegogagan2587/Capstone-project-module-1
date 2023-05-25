@@ -203,7 +203,6 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-left: 8.92px;
   padding-left: 2.5%;
   padding-right: 2.5%;
   align-items: center;
@@ -481,6 +480,8 @@ a {
     flex-direction: column;
     padding-left: 1.25vw;
     padding-right: 1.25vw;
+    padding-bottom: 1.52vw;
+    padding-top: 0.41vw;
     height: 16.04vw;
   }
 
@@ -491,11 +492,13 @@ a {
   .activity h3 {
     font-size: 1.66vw;
     width: 100%;
+    text-align: center;
   }
 
   .activity .description {
     font-size: 0.83vw;
     width: 100%;
+    padding: 0;
   }
 
   #see-whole {
