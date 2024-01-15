@@ -1,4 +1,4 @@
-<a name="readme-top"></a>
+<a id="readme-top"></a>
 
 <div align="center">
 
@@ -34,15 +34,15 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Microverse Capstone Project <a name="about-project"></a>
+# 📖 Microverse Capstone Project <a id="about-project"></a>
 
 > What is the Capstone Project?
 
 **The Capstone Project** was requested from the Microverse team at the week 4 and five of the first month on the program, and the purpose is to put in practice and also show all the habilites and skilss in Javascript, Html and Css that I have adquired so far. 
 
-## 🛠 Built With <a name="built-with"></a>
+## 🛠 Built With <a id="built-with"></a>
 
-### Tech Stack <a name="tech-stack"></a>
+### Tech Stack <a id="tech-stack"></a>
 
 > This project uses the next technologies.
 
@@ -57,7 +57,7 @@
 
 <!-- Features -->
 
-### Key Features <a name="key-features"></a>
+### Key Features <a id="key-features"></a>
 
 > Here you cans see some of the Key features of my project:
 
@@ -71,7 +71,7 @@
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo <a id="live-demo"></a>
 
 > Do you want to run the website? Take a look into the next link
 
@@ -81,7 +81,7 @@
 
 <!-- GETTING STARTED -->
 
-## 💻 Getting Started <a name="getting-started"></a>
+## 💻 Getting Started <a id="getting-started"></a>
 
 > Would you like to check it on your local machine?
 
@@ -138,7 +138,7 @@ https://diegogagan2587.github.io/Capstone-project-module-1/
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Authors <a id="authors"></a>
 
 > Mention all of the collaborators of this project.
 
@@ -170,7 +170,7 @@ File:James Gosling 2008.jpg. In Wikipedia. https://commons.wikimedia.org/wiki/Fi
 
 <!-- FUTURE FEATURES -->
 
-## 🔭 Future Features <a name="future-features"></a>
+## 🔭 Future Features <a id="future-features"></a>
 
 > This Project is still in development, some feature will completed soon:
 
@@ -182,7 +182,7 @@ File:James Gosling 2008.jpg. In Wikipedia. https://commons.wikimedia.org/wiki/Fi
 
 <!-- CONTRIBUTING -->
 
-## 🤝 Contributing <a name="contributing"></a>
+## 🤝 Contributing <a id="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
@@ -192,7 +192,7 @@ Feel free to check the [issues page](https://github.com/Diegogagan2587/Capstone-
 
 <!-- SUPPORT -->
 
-## ⭐️ Show your support <a name="support"></a>
+## ⭐️ Show your support <a id="support"></a>
 
 > Are you feeling inspired?
 
@@ -202,7 +202,7 @@ If you like this project and would like to support us, feel free to give us any 
 
 <!-- ACKNOWLEDGEMENTS -->
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
+## 🙏 Acknowledgments <a id="acknowledgements"></a>
 
 > Special thanks...
 
@@ -214,7 +214,7 @@ Thanks to Cindy Shin who provided the original idea.
 
 <!-- LICENSE -->
 
-## 📝 License <a name="license"></a>
+## 📝 License <a id="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
 
